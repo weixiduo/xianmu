@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .contaiher {
+      width: 1200px;
+      display: flex;
+      position: relative;
+    }
+
+    .all {
+      width: 200px;
+      height: 45px;
+      background-color: rgb(200, 129, 37);
+      line-height: 45px;
+      text-align: center;
+    }
+
+    .nav a {
+      color: aqua;
+      padding-left: 20px;
+    }
+
+    .sort {
+      left: 0px;
+      top: 200px;
+      width: 210px;
+      height: 461px;
+      position: absolute;
+      background: #c81717;
+      z-index: 999;
+    }
+
+    .item a {
+      color: rgb(97, 32, 32);
+    }
+
+    .item-list {
+      display: none;
+      position: absolute;
+      width: 734px;
+      min-height: 460px;
+      background: #779663;
+      left: 210px;
+      border: 1px solid #ddd;
+      top: 0;
+      z-index: 9999 !important;
+    }
+
+    .item:hover .item-list {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="all">全部商品分类</h2>
+    <nav class="nav">
+      <a href="###">服装城</a>
+      <a href="###">美妆馆</a>
+      <a href="###">尚品汇超市</a>
+      <a href="###">全球购</a>
+      <a href="###">闪购</a>
+      <a href="###">团购</a>
+      <a href="###">有趣</a>
+      <a href="###">秒杀</a>
+    </nav>
+    <div class="sort">
+      <div class="all-sort-list2">
+        <div class="item bo">
+          <h3>
+            <a href="">图书、音像、数字商品</a>
+          </h3>
+          <div class="item-list clearfix">
+            <div class="subitem">
+              <dl class="fore">
+                <dt>
+                  <a href="">电子书</a>
+                </dt>
+                <dd>
+                  <em>
+                    <a href="">婚恋/两性</a>
+                  </em>
+                  <em>
+                    <a href="">文学</a>
+                  </em>
+                  <em>
+                    <a href="">经管</a>
+                  </em>
+                  <em>
+                    <a href="">畅读VIP</a>
+                  </em>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
